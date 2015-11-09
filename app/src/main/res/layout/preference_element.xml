@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:padding="15dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"/>
+
+    <LinearLayout
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:layout_width="0dp"
+        android:layout_weight=".7"
+        android:layout_height="70dp"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:text="Title"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:text="description"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight=".3"
+        android:text="nodata"
+        android:layout_height="70dp"
+        android:singleLine="true"
+        />
+    <LinearLayout
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/switchcombat"
+        android:layout_width="0dp"
+        android:layout_weight=".3"
+        android:layout_height="70dp">
+        <android.support.v7.widget.SwitchCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</merge> 

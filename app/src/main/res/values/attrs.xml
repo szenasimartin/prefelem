@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Options">
+        <attr name="shared_preference_id" format="string"/>
+        <attr name="titleText" format="string" localization="suggested" />
+        <attr name="descText" format="string" localization="suggested" />
+        <attr name="iconSrc" format="reference" />
+        <attr name="iconColor" format="color" />
+        <attr name="mod" format="enum">
+            <enum name="switch_compat" value="1"/>
+            <enum name="edit_text" value="2"/>
+        </attr>
+        <attr name="noIconPadding" format="boolean" />
+        <attr name="noIcon" format="boolean" />
+    </declare-styleable>
+
+</resources>
