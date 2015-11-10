@@ -8,7 +8,7 @@
     android:divider="?android:attr/listDivider">
 
 
-    <com.github.szenasimartin.prefelem.PreferenceElement
+    <com.szenamartin.prefelem.PreferenceElement
         android:id="@+id/one"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,7 +19,7 @@
         custom:iconSrc="@drawable/ic_facebook_box_white_48dp"
         custom:titleText="One"/>
 
-    <com.github.szenasimartin.prefelem.PreferenceElement
+    <com.szenamartin.prefelem.PreferenceElement
         android:id="@+id/two"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
         custom:descText="Description"
         custom:titleText="Two"/>
 
-    <com.github.szenasimartin.prefelem.PreferenceElement
+    <com.szenamartin.prefelem.PreferenceElement
         android:id="@+id/edittext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
         custom:descText="Description"
         custom:titleText="edittext"/>
 
-    <com.github.szenasimartin.prefelem.PreferenceElement
+    <com.szenamartin.prefelem.PreferenceElement
         android:id="@+id/three"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

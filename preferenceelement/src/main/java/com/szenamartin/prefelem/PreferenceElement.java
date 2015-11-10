@@ -1,4 +1,4 @@
-package com.github.szenasimartin.prefelem;
+package com.szenamartin.prefelem;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -19,7 +19,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 
-import com.github.szenasimartin.R;
 
 import java.util.ArrayList;
 import java.util.List;

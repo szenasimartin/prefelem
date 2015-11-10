@@ -1,12 +1,13 @@
 package com.github.szenasimartin;
 
+import com.szenamartin.prefelem.PreferenceElement;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.github.szenasimartin.prefelem.PreferenceElement;
+
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
